@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    font-weight: 550;
+}
+
+#center {
+    height: 22%;
+    width: 100%;
+    padding: 40px 80px;
+}
+
+#center h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 85px;
+}
+
+#center-in {
+    height: 50%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right {
+    width: 20%;
+}
+
+
+.elem {
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.elem:hover i
+{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(161, 196, 196);
+}
+
+
+
+
+
+
